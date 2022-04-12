@@ -7,3 +7,33 @@
     display: flex;
     flex-direction: column;
 }
+.overlay {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.image-main {
+    display: block;
+}
+
+.image-container {
+    position: relative;
+}
+.image-container:hover .overlay {
+    font-size: xx-large;
+    color: white;
+    opacity: 1;
+}
