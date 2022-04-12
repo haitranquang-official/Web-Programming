@@ -1,0 +1,9 @@
+.image-main {
+    width: 100%;
+}
+.content {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
